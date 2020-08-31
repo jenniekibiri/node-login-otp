@@ -15,7 +15,7 @@
    {
    
     "/register":"register",
-    "/signin":"signin",
+    
   
     
 
