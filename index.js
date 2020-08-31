@@ -44,6 +44,8 @@ app.get("/", (req, res) => {
   });
 });
 
+
+//begin twilio 
 app.get('/home', (req, res)=>{
     res.status(200).send({
         message: "You are on Homepage",
@@ -53,12 +55,6 @@ app.get('/home', (req, res)=>{
         }
     })
 })
-
-
-
-
-
-
 
 
 const client = require('twilio')(process.env.ACCOUNT_SID, process.env.AUTH_TOKEN)
@@ -138,7 +134,7 @@ app.get('/verify', (req, res) => {
         })
     }
 })
-
+//end of twilio
 
 
 
