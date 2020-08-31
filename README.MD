@@ -1,4 +1,4 @@
-# Social networking app
+# login otp
 
 ## technologies
 
@@ -13,19 +13,11 @@
 
 ```
    {
-    "/":"api docs",
-    "/signup":"signup",
+   
+    "/register":"register",
     "/signin":"signin",
-    "/signout":"signout",
-    "/users":"get all users",
-    "/users/:UserId":"get user",
-    "/user/:userId":"update user",
-    "/user/:userId":"delete user",
-    "/posts":"getall posts",
-    "/posts/new/:UserId":"create a new post",
-    "/posts/by/:UserId":"get posts by user",
-    "/updatepost/:postId":"update post",
-    "/deletepost/:postId":"delete post"
+  
+    
 
 
    }
@@ -33,6 +25,6 @@
 
 - clone to your desktop
 - npm install
-- npm start
+- nodemon index.js
 
-https://letsnetwork.herokuapp.com/
+
